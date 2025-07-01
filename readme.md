@@ -1,6 +1,8 @@
 # Spotify MP3 Downloader
 
-This tool by Darryl Mathias automatically fetches public Spotify playlist tracks, finds the best YouTube match, and downloads them as MP3s with metadata and cover art using `yt-dlp` and `ffmpeg`.
+This tool by Darryl Mathias was inspired by the many Python-based music downloaders out there and my personal pain for not being able to download (*sigh*) :(  — so I built a **full JavaScript version** for all my fellow JS fans. 
+
+It automatically fetches public Spotify playlist tracks, finds the best YouTube match, and downloads them as MP3s with metadata and cover art using `yt-dlp` and `ffmpeg`.
 
 ## 🚀 Features
 
@@ -53,7 +55,7 @@ This step was not possible to skip (which was the original plan), so follow [thi
         PLAYLIST_LINK=your_spotify_playlist_link
         DOWNLOAD_PATH=C:\Users\yourname\Music\Downloads
         ```
-    
+
     **How to get the PLAYLIST_LINK**:
 
     In Spotify, right-click the playlist → “Share” → “Copy Link to Playlist”.
@@ -66,7 +68,6 @@ This step was not possible to skip (which was the original plan), so follow [thi
    - Searches YouTube using a combination of the track name and artist(s)
    - Downloads the best-matching video using `yt-dlp` in `.mp3` format
    - Embeds metadata and thumbnail using `ffmpeg` via `yt-dlp` flags
-
 
 ## Legal Disclaimer
 
