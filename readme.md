@@ -47,14 +47,14 @@ This step was not possible to skip (which was the original plan), so follow [thi
 
 3.  Create .env file
 
-        Sample .env file :
+    Sample .env file :
 
-        ```bash
-        CLIENT_ID=your_spotify_client_id
-        CLIENT_SECRET=your_spotify_client_secret
-        PLAYLIST_LINK=your_spotify_playlist_link
-        DOWNLOAD_PATH=C:\Users\yourname\Music\Downloads
-        ```
+    ```bash
+    CLIENT_ID=your_spotify_client_id
+    CLIENT_SECRET=your_spotify_client_secret
+    PLAYLIST_LINK=your_spotify_playlist_link
+    DOWNLOAD_PATH=C:\Users\yourname\Music\Downloads
+    ```
 
     **How to get the PLAYLIST_LINK**:
 
