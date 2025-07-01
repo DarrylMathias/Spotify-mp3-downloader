@@ -20,6 +20,8 @@ It automatically fetches public Spotify playlist tracks, finds the best YouTube 
 | yt-dlp  | Downloader from YouTube (and more)     | [Download executable](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#installation)             |
 | ffmpeg  | For audio extraction & thumbnail embed | [Download here (ffmpeg-release-essentials.zip)](https://www.gyan.dev/ffmpeg/builds/#release-builds) |
 
+**Don't forget to add them to your environment variables.**
+
 ## Spotify API setup
 
 To use this tool, you'll need to authenticate with Spotify via the Client Credentials Flow. This requires:
@@ -60,6 +62,12 @@ This step was not possible to skip (which was the original plan), so follow [thi
 
     In Spotify, right-click the playlist → “Share” → “Copy Link to Playlist”.
     ![Spotify copy link demo](/public/demo.png)
+
+4. Run script
+
+    ```bash
+    node script.js
+    ```
 
 ## How It Works
 
