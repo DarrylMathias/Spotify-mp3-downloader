@@ -25,8 +25,8 @@ const authRes = await axios.post(
 
 //Spotify Query String
 const authToken = authRes.data.access_token;
-const playListLink = process.env.PLAYLIST_ID.split('?si')[0]
-const res = await axios.get(`${playListLink}`, {
+const playlistId = process.env.PLAYLIST_LINK.split("playlist/")[1].split("?")[0];
+const res = await axios.get(`https://api.spotify.com/v1/playlists/${playlistId}`, {
     headers: {
         Authorization: `Bearer ${authToken}`
     }
